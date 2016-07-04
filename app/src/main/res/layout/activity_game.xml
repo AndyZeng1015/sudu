@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sudoku_final">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="220dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_newgame"
+            android:text="新游戏"
+            style="@style/MyButtom"
+            />
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:text="继续游戏"
+            style="@style/MyButtom"/>
+
+        <Button
+            android:id="@+id/btn_difficulty"
+            android:text="游戏难度"
+            style="@style/MyButtom"/>
+
+        <Button
+            android:id="@+id/btn_rank"
+            android:text="游戏规则"
+            style="@style/MyButtom"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_exit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/exit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,2 @@
+include ':app', ':gifViewLibrary'
+project(':gifViewLibrary').projectDir = new File('GifView/library')
